@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929a928a-ea27-426e-b76c-3a622c7568c9">
+  <producedTypes>
+    <objectType typeId="f7bdccdd-8080-4164-89bf-b4b02c44b3f7" valueTypeId="297c96b9-a792-44d5-87cd-7f61594677a6"/>
+    <refType typeId="cfa60ed5-0d08-49c7-b257-f697f5c2a873" valueTypeId="65d79bc2-f3fc-4727-b210-97be81a5153a"/>
+    <selectionType typeId="d9cc076c-b66a-4f6f-a57d-08d72bfe4a16" valueTypeId="86e75168-52d9-4c10-8c06-02004ec5bb64"/>
+    <listType typeId="bedacc64-7e47-439d-98b5-785dcfcd11b3" valueTypeId="2a0b34a4-6994-4d4f-bf65-f0803eb7f93e"/>
+    <managerType typeId="37fb9c14-1d1d-49f4-851e-dc1149682d31" valueTypeId="3002bd53-7fb2-410e-81d4-0c7d58d0afaf"/>
+  </producedTypes>
+  <name>Покупка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Покупка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="8c922410-1ba0-4187-b49f-05f4a6a9440c">
+    <producedTypes>
+      <objectType typeId="6f5befd2-bf2d-4e48-b976-6596bdc0372f" valueTypeId="fb6172c3-8215-4b46-bec9-0c906153e834"/>
+      <rowType typeId="6c459538-0a13-4ec5-a6fd-84f00cfbb2cd" valueTypeId="e8860cb3-d9f2-451e-892f-21915f0a742c"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
