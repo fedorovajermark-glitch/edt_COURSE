@@ -42,4 +42,5 @@
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Покупка</documents>
+  <dataProcessors>DataProcessor.Обработка</dataProcessors>
 </mdclass:Configuration>
