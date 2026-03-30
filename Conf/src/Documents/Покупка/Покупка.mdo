@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929a928a-ea27-426e-b76c-3a622c7568c9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929a928a-ea27-426e-b76c-3a622c7568c9">
   <producedTypes>
     <objectType typeId="f7bdccdd-8080-4164-89bf-b4b02c44b3f7" valueTypeId="297c96b9-a792-44d5-87cd-7f61594677a6"/>
     <refType typeId="cfa60ed5-0d08-49c7-b257-f697f5c2a873" valueTypeId="65d79bc2-f3fc-4727-b210-97be81a5153a"/>
@@ -35,6 +35,20 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <attributes uuid="4e44b94b-8239-433e-bac7-96f3aaeb4cd3">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
 </mdclass:Document>
